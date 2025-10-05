@@ -19,6 +19,7 @@ const {
  * @param {Object} req - Express request object.
  * @param {Object} req.query - Query parameters from the request.
  * @param {string} req.query.amount - The number of questions requested. This parameter is optional.
+ * @param {string} req.query.difficulty - The difficulty level (easy, medium, hard). This parameter is optional.
  * @param {Object} res - Express response object used to send back the response.
  * @returns {Promise<void>} Sends a JSON response with the requested random questions or an error message.
  *
